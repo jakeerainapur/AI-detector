@@ -211,7 +211,6 @@
                     <label>Confirm Password</label>
                     <input type="password" id="auth-confirm-password" placeholder="••••••••">
                 </div>
-                <div id="auth-message" class="auth-message"></div>
                 <button type="submit" class="submit-btn" id="modal-submit-btn">Log In</button>
             </form>
 
@@ -225,6 +224,8 @@
                 <p class="small-text">Didn’t receive a code? <span onclick="resendVerificationCode()">Resend</span></p>
             </div>
             
+            <div id="auth-message" class="auth-message" style="margin-top: 15px; text-align: center;"></div>
+
             <div class="modal-footer">
                 <p id="modal-switch-text">Don't have an account? <span onclick="openModal('signup')">Sign Up</span></p>
             </div>
